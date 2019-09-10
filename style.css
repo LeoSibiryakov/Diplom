@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-image: url(img/football_1280.jpg);
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -387,7 +387,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-image: url(img/game_767.jpg);
+  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
