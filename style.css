@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1280.jpg);
+  background-image: url(img/football_1280.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -327,7 +327,7 @@
 }
 
 .main-foto {
-  width: 100%;
+  max-width: 320px;
   position: relative;
   z-index: 1;
 }
@@ -387,7 +387,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_767.jpg);
+  background-image: url(img/game_767.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -507,4 +507,8 @@
   background-color: #8f7bc8;
   display: block;
   margin: 0 auto;
+}
+
+.foto {
+  max-width: 320px;
 }
