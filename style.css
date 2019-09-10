@@ -11,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  max-width: 320px;
+  width: 320px;
   padding-top: 45px;
   padding-bottom: 110px;
   position: relative;
@@ -110,14 +110,14 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  src: url(fonts/OpenSans-Regular.woff);
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  src: url(fonts/OpenSans-Bold.woff);
   font-weight: bold;
   font-style: normal;
 }
@@ -164,10 +164,6 @@
   font-size: 50px;
   text-transform: uppercase;
   margin-left: 20px;
-}
-
-main {
-  max-width: 320px;
 }
 
 .atlets-block {
@@ -436,8 +432,6 @@ main {
 
 .download-title {
   width: 280px;
-  height: 24px;
-  margin-left: 20px;
 }
 
 .download {
