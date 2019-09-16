@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.header {
+ .header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -11,7 +11,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 320px;
+  max-width: 320px;
   padding-top: 45px;
   padding-bottom: 110px;
   position: relative;
@@ -103,7 +103,7 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url(https://github.com/LeoSibiryakov/Diplom/blob/master/OpenSans-Regular.woff);
+  src: url("OpenSans-Bold.woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -512,3 +512,4 @@
 .photo {
   max-width: 320px;
 }
+
