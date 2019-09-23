@@ -947,10 +947,12 @@
 
   .find-contact-1024 {
     display: block;
+    width: 100%;
   }
 
   .work-it-1024 {
     display: block;
+    width: 100%;
   }
 
   .connection-name {
@@ -1094,14 +1096,6 @@
     font-size: 24px;
     line-height: 28px;
     width:70%;
-  }
-
-  .work-it-1024 {
-    width: 100%;
-  }
-
-  .find-contact-1024 {
-    width: 100%;
   }
 
   .footer {
