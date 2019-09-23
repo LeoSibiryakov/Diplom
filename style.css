@@ -799,8 +799,6 @@
     display: none;
   }
 
-  
-
   .download {
     margin-left: auto;
     margin-right: auto;
@@ -945,6 +943,14 @@
 
   .main-foto-third {
     display: none;
+  }
+
+  .find-contact-1024 {
+    display: block;
+  }
+
+  .work-it-1024 {
+    display: block;
   }
 
   .connection-name {
@@ -1130,7 +1136,7 @@
   }
 
   .emblem {
-    margin: 0;
+    margin-left:auto;
   }
 
   .download {
