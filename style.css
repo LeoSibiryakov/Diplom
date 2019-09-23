@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-}
-
+} 
+ 
  .header {
   display: flex;
   flex-wrap: wrap;
@@ -11,11 +11,12 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  min-width: 320px;
   padding-top: 45px;
   padding-bottom: 110px;
   position: relative;
   z-index: 1;
+  min-width: 320px;
+  width: 100%;
 }
 
 .header::after {
@@ -43,45 +44,58 @@
 }
 
 .title {
-  width: 100%;
   z-index: 2;
   display: flex;
   flex-direction: column;
-  margin: 135px 42px 89px 20px; 
+  padding-top: 135px;
+  padding-bottom: 89px;
+  padding-left: 20px;
+  padding-right: 40px;
   font-size: 28px;
   line-height: 31px;
   color: #ffffff;
   text-transform: uppercase;
   font-family: 'OpenSans Bold';
+  margin: 0 auto;
 }
 
 .second-title {
   text-align: left;
-  margin: auto;
-  padding-left: 45px;
+  padding-left: 40px;
+  margin: 0 auto;
 }
 
 .link {
-  width: 95%;
   display: flex;
   flex-direction: column;
   z-index: 2;
   color: #ffffff;
   text-transform: uppercase;
-  margin-left: 20px;
-  margin-right: 20px;
   justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.link-down {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  color: #ffffff;
+  text-transform: uppercase;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .links {
   background-color: #5e42b0;
   border-radius: 25px;
-  justify-content: center;
   display: flex;
   color: #ffffff;
   padding-bottom: 8px;
   padding-top: 3px;
   margin-bottom:14px;
+  justify-content: center;
 }
 
 .apple-icon {
@@ -91,7 +105,6 @@
 }
 
 .apple {
-  width: 83px;
   font-size: 8px;
   font-family: 'OpenSans';
   font-weight: normal;
@@ -99,20 +112,19 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("OpenSans—Regular.woff");
+  src: url("OpenSans-Regular.woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'OpenSans Bold';
-  src: url("OpenSans-Bold.woff") ;
+  src: url("OpenSans-Bold.woff");
   font-weight: bold;
   font-style: normal;
 }
 
 .downloads {
-  width: 84px;
   display: flex;
   flex-direction: column;
   margin-left: 9px;
@@ -126,13 +138,12 @@
 }
 
 .google {
-  width: 83px;
-  font-size: 6px;
+  font-size: 8px;
   font-family: 'OpenSans';
+  font-weight: normal;
 }
 
 .app {
-  width: 83px;
   font-size: 6px;
   font-family: 'OpenSans Bold';
 }
@@ -173,6 +184,7 @@
   padding-top:82px;
   padding-bottom:50px;
   background-color: #fafafa;
+  margin: 0 auto;
 }
 
 .connection-title {
@@ -199,7 +211,6 @@
 }
 
 .connection-name {
-  width: 160px;
   color: #e7e7e7;
   font-family: 'OpenSans Bold';
   text-transform: uppercase;
@@ -214,14 +225,14 @@
   line-height: 18px;
   text-align: left;
   margin-left: 20px;
-
+  font-weight: 700;
+  letter-spacing: 0.05em; 
 } 
 
 .collaboration {
   width: 100%;
   padding-bottom: 52px;
   background-color: #f5f4f9;
-  
 }
 
 .collaboration-title {
@@ -261,6 +272,8 @@
   font-size: 15px;
   line-height: 18px;
   margin-left: 20px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 
 .picture-second {
@@ -269,14 +282,16 @@
   margin-top: 80px;
   position: absolute;
   top: 0;
-  left: 50%; 
-  margin-left:-25%
+  left: 10%; 
 }
 
 .players-block {
-  max-width: 100%;
   height: 290px;
   position: relative;
+}
+
+.atlets {
+  min-width: 320px;
 }
 
 .collaboration-title-second {
@@ -284,7 +299,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-left: 20px;
-  padding-bottom: 57px;
 }
 
 .growth-third {
@@ -359,7 +373,8 @@
   font-size: 16px;
   line-height: 20px;
   margin-left:20px;
-  margin-bottom: 77px; 
+  margin-bottom: 77px;
+  font-weight: 600; 
 }
 
 .active-text-new {
@@ -419,7 +434,6 @@
 }
 
 .download {
-  height: 50px;
   margin-left: 20px;
   margin-bottom: 76px;
   z-index: 2;
@@ -427,7 +441,6 @@
   text-transform: uppercase;
   font-size: 28px;
   font-family: 'OpenSans Bold';
-  text-align: center;
 }
 
 .slogan {
@@ -483,7 +496,7 @@
 }
 
 .square-numbers::after {
-  content: "";
+  content:"";
   width: 15px;
   height: 4px;
   background-color: #8f7bc8;
@@ -494,4 +507,612 @@
 .photo {
   width:100%;
 }
+
+.picture-768 {
+  display: none;
+}
+
+.picture-second-768 {
+  display: none;
+}
+
+.main-foto-second {
+  display: none;
+}
+
+.picture-566 {
+  display: none;
+  }
+
+.players-title {
+  font-family: 'OpenSans Bold';
+  color: #e7e7e7;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-left: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+.connection-players {
+  width: 100%;
+  padding-top:82px;
+  padding-bottom:50px;
+  background-color: #fafafa;
+  margin: 0 auto;
+}
+
+.collaboration-players {
+  width: 100%;
+  padding-bottom: 52px;
+  background-color: #f5f4f9;
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+
+  .link {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icon {
+    width: 205px;
+    height: 56px;
+  }
+
+  .links {
+    margin-left: 30px;
+    border-radius: 50px;
+  }
+
+  .title {
+    font-size: 64px;
+    margin: 180px 85px 316px 90px;
+    line-height: 70px;
+  }
+
+  .apple-icon {
+    margin-left: 40px;
+  }
+
+  .apple {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .apple-icon {
+    width: 36px;
+    height: 42px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  } 
+
+  .downloads {
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .app {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .google-icon {
+    width: 41px;
+    height: 45px;
+    margin-left: 57px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+  }
+
+  .google {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .second-title {
+    padding-left: 105px;
+  }
+
+  .title-name {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 87px;
+    margin-left: 305px;
+    text-align: left;
+  }
+
+  .header {
+    background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1280.jpg);
+  }
+
+  .atlets-block {
+    height: 52px;
+  }
+   
+  .connection {
+    padding-left: 292px;
+    background-color: #ffffff;
+    width: initial;
+    padding-top: 60px;
+    padding-bottom: 37px;
+  } 
+
+  .collaboration {
+    padding-left: 292px;
+    width: initial;
+    padding-bottom: 37px;
+  }
+
+  .collaboration-title {
+    padding-top: 38px;
+  }
+
+  .growth {
+    padding-left: 292px;
+    width: initial;
+    padding-bottom: 37px;
+  }
+
+  .picture {
+    display: none;
+  }
+
+  .find-contact-1024 {
+    display: none;
+  }
+
+  .picture-768 {
+    position: absolute;
+    width: 497px;
+    height: 699px;
+    left: -150px;
+    top: 0;
+    display: block;
+  }
+
+  .picture-second {
+    display: none;
+  }
+
+  .picture-second-768 {
+    position: absolute;
+    top:0;
+    display: block;
+    right:0;
+  } 
+
+  .connection-text {
+    font-size: 16px;
+    line-height: 28px;
+    width: initial;
+    margin-top: 25px;
+  }
+
+  .growth-text {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .players-title {
+    font-size: 80px;
+    margin-left: 35px;
+    text-align: left;
+    margin-top: 85px;
+  }
+
+  .connection-players {
+    padding-right: 292px;
+    width: initial;
+  }
+
+  .players-block {
+    height: 85px;
+  }
+
+  .connection-players {
+    padding-left: 30px;
+    background-color: #ffffff;
+    padding-bottom: 32px;
+  }
+
+  .collaboration-players {
+    width: initial;
+    padding-left: 30px;
+    padding-right: 292px;
+    padding-bottom: 32px;
+  }
+
+  .collaboration-title-second {
+    padding-top: 38px;
+  }
+
+  .growth-third {
+    padding-right: 292px;
+    padding-left: 30px;
+    width: initial;
+    padding-bottom: 38px;
+  }
+
+  .title-new {
+    font-size: 80px;
+  }
+
+  .active-text {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+  }
+
+  .footer {
+    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1280.jpg");
+  }
+
+  .main-foto {
+    display: none;
+  }
+
+  .picture-566 {
+    display: none;
+  }
+
+  .main-foto-second {
+    display: block;
+    width: 100%;
+  }
+
+  .picture-991 {
+    display: none;
+  }
+
+  .main-foto-third {
+    display: none;
+  }
+
+  .find-contact-1024 {
+    display: none;
+  }
+
+  .work-it-1024 {
+    display: none;
+  }
+
+  
+
+  .download {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .link-down {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+
+  .title {
+    padding-top: 294px;
+    padding-bottom: 210px;
+    font-size: 70px;
+    line-height: 100px;
+  }
+
+  .second-title {
+    line-height: 100px;
+    padding-left: 42%;
+  }
+
+  .icon {
+    width: 191px;
+    height: 52px;
+  }
+
+  .header {
+    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1280.jpg");
+  }
+
+  .link {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .links {
+    margin-left: 30px;
+    border-radius: 50px;
+  }
+
+  .apple-icon {
+    margin-left: 40px;
+  }
+
+  .apple {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .apple-icon {
+    width: 36px;
+    height: 42px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  } 
+
+  .downloads {
+    margin-right: 60px;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .app {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .google-icon {
+    width: 41px;
+    height: 45px;
+    margin-left: 57px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+  }
+
+  .google {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .title-name {
+    font-size: 80px;
+    line-height: 60px;
+    margin-top: 110px;
+    margin-left: 50%;
+    text-align: left;
+  }
+
+  .connection {
+    padding-left: 50%;
+    padding-right: 9%;
+    background-color: #ffffff;
+    width: initial;
+    padding-top: 60px;
+    padding-bottom: 57px;
+  } 
+
+  .collaboration {
+    padding-left: 50%;
+    padding-right: 9%;
+    width: initial;
+    padding-bottom: 57px;
+    padding-top: 60px;
+  }
+
+  .collaboration-title {
+    padding-top: 38px;
+  }
+
+  .growth {
+    padding-left: 50%;
+    padding-right: 9%;
+    width: initial;
+    padding-bottom: 57px;
+    padding-top: 60px; 
+  }
+
+  .atlets-block {
+    height: 60px;
+    margin-bottom: 50px;
+  }
+
+  .picture-566 {
+    display: block;
+    position: absolute;
+    width: 566px;
+    height: 908px;
+    top: -40;
+    right: 53%; 
+  }
+
+  .picture { 
+    display: none;
+  }
+
+  .picture-991 {
+    display: none;
+  }
+
+  .main-foto-third {
+    display: none;
+  }
+
+  .connection-name {
+    font-size: 36px;
+    line-height: 35px;
+  }
+
+  .numbers {
+    font-size: 18px;
+  }
+
+  .connection-text {
+    font-size: 20px;
+    margin-left: 0px;
+    line-height: 28px;
+  }
+
+  .connection-title {
+    margin-left: 0px;
+  }
+
+  .collaboration-title {
+    margin-left: 0px;
+  }
+
+  .growth-text {
+    margin-left: 0px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .numbers-second {
+    font-size: 18px;
+  }
+
+  .players-title {
+    margin-top: 120px;
+    font-size: 80px;
+    line-height: 60px;
+    margin-left: 5%;
+    text-align: left;
+  }
+
+  .picture-second {
+    display: none;
+  }
+
+  .picture-991 {
+    display: block;
+    position: absolute;
+    top: -100;
+    left: 36%; 
+  }
+
+  .players-block {
+    height: 58px;
+  }
+
+  .connection-players {
+    background-color: #ffffff;
+    padding-left: 5%;
+    width: initial;
+    padding-right: 55%;
+  }
+
+  .collaboration-players {
+    padding-left: 5%;
+    width: initial;
+    padding-right: 55%;
+  }
+
+  .growth-players {
+    padding-left: 5%;
+  }
+
+  .collaboration-title-second {
+    margin-left: 0px;
+  }
+
+  .growth-third {
+    padding-left: 5%;
+    width: initial;
+    padding-right: 55%;
+  }
+
+  .numbers-second::after {
+    width: 21px;
+    height: 5px;
+  }
+
+  .numbers::after {
+    width: 21px;
+    height: 5px;
+  }
+
+  .growth-numbers {
+    font-size: 18px;
+  }
+
+  .growth-numbers::after {
+    width: 21px;
+    height: 5px;
+  }
+
+  .main-foto-third {
+    display: block;
+    width: 100%;
+  }
+
+  .main-foto-second {
+    display: none;
+  }
+
+  .main-foto {
+    display: none;
+  }
+
+  .photo {
+    width: 50%;
+  }
+
+  .athlets {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .beactive {
+    width: 50%;
+  }
+
+  .title-new {
+    font-size: 80px;
+    line-height: 60px;
+    padding-top: 130px;
+    padding-bottom: 50px; 
+  }
+
+  .active-text {
+    margin-bottom: 0px;
+    margin-left: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    width:70%;
+  }
+
+  .work-it-1024 {
+    width: 100%;
+  }
+
+  .find-contact-1024 {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1920.jpg");
+    padding-top: 230px;
+    padding-bottom: 50px;
+  }
+
+  .download-title {
+    font-size: 80px;
+  }
+
+  .slogan {
+    font-size: 30px;
+  }
+
+  .emblema {
+    width: 130px;
+    height: 136px;
+  }
+
+  .link-down {
+    margin-top: 150px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 260px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .emblem {
+    margin: 0;
+  }
+
+  .download {
+    margin-bottom: 0px;
+  }
 }
