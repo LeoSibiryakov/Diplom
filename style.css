@@ -49,20 +49,20 @@
   flex-direction: column;
   padding-top: 135px;
   padding-bottom: 89px;
-  padding-left: 20px;
-  padding-right: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
   font-size: 28px;
   line-height: 31px;
   color: #ffffff;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   font-family: 'OpenSans Bold';
-  margin: 0 auto;
 }
 
 .second-title {
   text-align: left;
-  padding-left: 40px;
   margin: 0 auto;
+  padding-left: 15%;
 }
 
 .link {
@@ -129,6 +129,7 @@
   flex-direction: column;
   margin-left: 9px;
   padding-top: 6px;
+  width: 80px;
 }
 
 .google-icon {
@@ -481,6 +482,7 @@
   position: absolute;
   margin-top: 293px;
   z-index: 2;
+  bottom: -20px;
 }
 
 .square-numbers {
@@ -506,6 +508,7 @@
 
 .photo {
   width:100%;
+  position: relative;
 }
 
 .picture-768 {
@@ -588,7 +591,6 @@
 
   .title {
     font-size: 64px;
-    margin: 180px 85px 316px 90px;
     line-height: 70px;
   }
 
@@ -633,7 +635,7 @@
   }
 
   .second-title {
-    padding-left: 105px;
+    padding-left: 18%;
   }
 
   .title-name {
@@ -814,13 +816,13 @@
   .title {
     padding-top: 294px;
     padding-bottom: 210px;
-    font-size: 70px;
+    font-size: 90px;
     line-height: 100px;
   }
 
   .second-title {
     line-height: 100px;
-    padding-left: 42%;
+    padding-left: 20%;
   }
 
   .icon {
@@ -937,10 +939,6 @@
     display: none;
   }
 
-  .picture-991 {
-    display: none;
-  }
-
   .main-foto-third {
     display: none;
   }
@@ -1004,7 +1002,10 @@
     display: block;
     position: absolute;
     top: -100;
-    left: 36%; 
+    right: 5%; 
+    overflow: hidden;
+    width: 991px;
+    height: 815px;
   }
 
   .players-block {
@@ -1130,10 +1131,53 @@
   }
 
   .emblem {
-    margin-left:auto;
+   margin-right: 3%;
   }
 
-  .download {
-    margin-bottom: 0px;
+  .numbers-title {
+    margin-top: 0;
+    top: 35%;
+    left: 90%;
+    width: 150px;
+    height: 150px;
   }
-}
+
+  .third-class {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .numbers-title-third {
+    margin-top: 0;
+    top: 35%;
+    right: 95%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: #5e42b0;
+    z-index: 2;
+  }
+
+  .title-new {
+    padding-left: 15%;
+    padding-top: 15%;
+  }
+
+  .active-text {
+    padding-left: 15%;
+    margin-left: 0;
+  }
+
+  .square-numbers {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .footer-class {
+    display: flex;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+
