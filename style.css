@@ -16,6 +16,10 @@
   font-weight: bold;
   font-style: normal;
 }
+
+.body {
+  min-width: 320px;
+}
  
  .header {
   display: flex;
@@ -353,9 +357,8 @@
 }
 
 .title-new {
-  padding-top: 33px;
-  padding-left: 20px;
   padding-bottom: 24px;
+  padding-left: 20px;
   color: #e7e7e7;
   font-size: 28px;
   font-family: 'OpenSans Bold';
@@ -366,9 +369,9 @@
   font-family: 'OpenSans';
   font-size: 16px;
   line-height: 20px;
-  margin-left:20px;
-  margin-bottom: 77px;
   font-weight: 600; 
+  padding-left: 24px;
+  float: left;
 }
 
 .active-text-new {
@@ -378,6 +381,8 @@
 
 .beactive {
   width: 100%;
+  padding-bottom: 76px;
+  padding-top: 33px;
 }
 
 .footer {
@@ -471,6 +476,8 @@
 
 .download-title {
   text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .square-numbers {
@@ -504,6 +511,8 @@
 .download {
   margin-left: auto;
   margin-right: auto;
+  flex-direction: column;
+  display: flex;
 }
 
 .players-title {
@@ -529,6 +538,22 @@
   justify-content: center;
 }
 
+.numbers-title-second {
+  width: 70px;
+  height: 70px;
+  background-color: #5e42b0;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 20px;
+  z-index: 2;
+  bottom: -20px;
+}
+
+.footer-down {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 641px) and (max-width: 960px) {
 
   .link {
@@ -548,6 +573,7 @@
     padding-top: 15px;
     margin-top: 10px;
     margin-top: 0px;
+    margin-left: 0px;
   }
 
   .title {
@@ -619,10 +645,11 @@
 
   .picture {
     position: absolute;
-    width: 50%;
+    width: 497px;
     height: 699px;
-    top: 0;
-    left: 100;
+    left: -300;
+    margin-left: 20%;
+    top: -50;
   }
 
   .picture-second {
@@ -801,6 +828,16 @@
     width: 19px;
     height: 5px;
   }
+
+  .numbers-title-second {
+    width: 115px;
+    height: 115px;
+  }
+
+  .beactive {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
@@ -842,6 +879,7 @@
     padding-left: 60px;
     padding-top: 10px;
     padding-bottom: 17px;
+    margin-left: 30px;
   }
 
   .apple {
@@ -1081,11 +1119,13 @@
   }
 
   .numbers-title {
+    bottom: -20px;
+    height: 10vh;
     margin-top: 0;
+    left: -50;
     top: 35%;
-    left: 90%;
-    width: 20%;
-    height: 25%;
+    margin-left: 0px;
+    width: 10vh;
   }
 
   .third-class {
@@ -1096,8 +1136,8 @@
     margin-top: 0;
     top: 35%;
     right: 90%;
-    width: 20%;
-    height: 25%;
+    width: 5.5em;
+    height: 5.5em;
     z-index: 2;
     background-color: #5e42b0;
     position: absolute;
@@ -1125,10 +1165,6 @@
     width: 60%;
   }
 
-  .links {
-    margin-left: 30px;
-  }
-
   .main-links:nth-child(2) {
     margin-top: 0px;
   }
@@ -1138,11 +1174,11 @@
   }
 
   .picture {
-    width: 40%;
+    width: 566px;
     height: 908px;
-    left: 100;
-    margin-left: 0%;
-    left: 5%;
+    left: -400;
+    margin-left: 35%;
+    top: -100;
   }
 
   .picture-second {
@@ -1153,31 +1189,26 @@
     margin-top: 0px;
   }
 
-  .numbers-title {
-    margin-left: 0px;
-    width: 20%;
-    height: 30%;
-  }
-
   .square-numbers::after {
-    margin-top: 40px;
     width: 20px;
   }
 
   .square-numbers {
-    font-size: 16px;
+    font-size: 16px;                      
+    transform: translate(0, -50%);
+    margin-top: 40%;
   }
 
   .title-new {
     font-size: 60px;
     padding-left: 15%;
-    padding-top: 25%
   }
 
   .footer-class {
     display: block;
     margin-left: 0px;
     margin-right: 0px;
+    width: 100%;
   }
 
   .emblem {
@@ -1203,19 +1234,13 @@
   .download {
     font-size: 60px;
     margin-bottom: 160px;
+    margin-left: 40px;
+    margin-right: 0;
   }
 
   .download-title {
     display: inline-block;
     font-size: 60px;
-  }
-
-  .link {
-    margin-bottom: 260px;
-  }
-
-  .links {
-    margin-left: 0px;
   }
 
   .main-links:nth-child(2) {
@@ -1231,7 +1256,32 @@
     display: block;
   }
 
-}
+  .numbers-title-second {
+    margin-left: 0px;
+    bottom: -20px;
+    height: 10vh;
+    margin-top: 0;
+    left: -50;
+    top: 35%;
+    margin-left: 0px;
+    width: 10vh;
+  }
+
+  .footer-down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .article {
+    display: flex;
+  }
+
+  .beactive {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 
 
 
