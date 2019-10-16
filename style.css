@@ -17,7 +17,7 @@
   font-style: normal;
 }
 
-.body {
+  body {
   min-width: 320px;
 }
  
@@ -64,16 +64,17 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-  padding-top: 135px;
-  padding-bottom: 89px;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-top: 135px;
+  margin-bottom: 89px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 28px;
   line-height: 31px;
   color: #ffffff;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-family: 'OpenSans Bold';
+  width: 90%;
 }
 
 .second-title {
@@ -160,18 +161,15 @@
 }
 
 .atlets-block {
-  height: 307px;
   position: relative;
+  margin-bottom: 225px;
 }
 
 .picture {
   width: 192px;
   height: 281px;
-  margin-top: 80px;
-  position: absolute;
-  top: 0;
-  left: 50%; 
-  margin-left:-25%
+  margin-left: 25%;
+  position: absolute; 
 }
 
 .connection {
@@ -275,14 +273,13 @@
 .picture-second {
   width: 302px;
   height: 248px;
-  margin-top: 80px;
-  position: absolute; 
-  top: 0;
+  margin-left: 5%;
+  position: absolute;
 }
 
 .players-block {
-  height: 290px;
   position: relative;
+  margin-bottom: 225px;
 }
 
 .collaboration-title-second {
@@ -358,7 +355,6 @@
 
 .title-new {
   padding-bottom: 24px;
-  padding-left: 20px;
   color: #e7e7e7;
   font-size: 28px;
   font-family: 'OpenSans Bold';
@@ -370,8 +366,6 @@
   font-size: 16px;
   line-height: 20px;
   font-weight: 600; 
-  padding-left: 24px;
-  float: left;
 }
 
 .active-text-new {
@@ -380,9 +374,9 @@
 }
 
 .beactive {
-  width: 100%;
   padding-bottom: 76px;
   padding-top: 33px;
+  padding-left: 20px;
 }
 
 .footer {
@@ -436,12 +430,15 @@
 }
 
 .download {
-  margin-bottom: 76px;
   z-index: 2;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 28px;
   font-family: 'OpenSans Bold';
+}
+
+.footer-down {
+  margin-bottom: 76px;
 }
 
 .slogan {
@@ -468,10 +465,9 @@
   height: 70px;
   background-color: #5e42b0;
   position: absolute;
-  margin-top: 300px;
-  margin-left: 20px;
+  bottom: -2vh;
+  left: 2vh;
   z-index: 2;
-  bottom: -20px;
 }
 
 .download-title {
@@ -543,8 +539,7 @@
   height: 70px;
   background-color: #5e42b0;
   position: absolute;
-  margin-top: 300px;
-  margin-left: 20px;
+  left: 2vh;
   z-index: 2;
   bottom: -20px;
 }
@@ -552,6 +547,10 @@
 .footer-down {
   display: flex;
   flex-direction: column;
+}
+
+.main-links {
+  text-decoration: none;
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
@@ -649,7 +648,7 @@
     height: 699px;
     left: -300;
     margin-left: 20%;
-    top: -50;
+    top: 40;
   }
 
   .picture-second {
@@ -686,6 +685,7 @@
 
   .players-block {
     height: 85px;
+    margin-bottom: 0px;
   }
 
   .connection-players {
@@ -758,6 +758,7 @@
   .atlets-block {
     height: 63px;
     line-height: 60px;
+    margin-bottom: 0px;
   }
 
   .slogan {
@@ -990,7 +991,6 @@
   }
 
   .players-title {
-    margin-top: 120px;
     font-size: 80px;
     line-height: 60px;
     margin-left: 5%;
@@ -999,6 +999,7 @@
 
   .players-block {
     height: 58px;
+    margin-bottom: 0px;
   }
 
   .connection-players {
@@ -1119,30 +1120,20 @@
   }
 
   .numbers-title {
-    bottom: -20px;
     height: 10vh;
     margin-top: 0;
-    left: -50;
-    top: 35%;
-    margin-left: 0px;
+    top: 35%;  
     width: 10vh;
+    bottom: 2vh;
+    left: 5vh;
+    display: flex;
   }
 
   .third-class {
     display: flex;
     flex-direction: row-reverse;
   }
-  .numbers-title-third {
-    margin-top: 0;
-    top: 35%;
-    right: 90%;
-    width: 5.5em;
-    height: 5.5em;
-    z-index: 2;
-    background-color: #5e42b0;
-    position: absolute;
-  }
-
+  
   .title-new {
     padding-left: 15%;
     padding-top: 15%;
@@ -1178,7 +1169,7 @@
     height: 908px;
     left: -400;
     margin-left: 35%;
-    top: -100;
+    top: -30;
   }
 
   .picture-second {
@@ -1257,11 +1248,9 @@
   }
 
   .numbers-title-second {
-    margin-left: 0px;
-    bottom: -20px;
     height: 10vh;
     margin-top: 0;
-    left: -50;
+    left: -5vh;
     top: 35%;
     margin-left: 0px;
     width: 10vh;
@@ -1281,7 +1270,5 @@
   .beactive {
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
   }
-
-
-
