@@ -160,16 +160,10 @@
   margin: auto;
 }
 
-.atlets-block {
-  position: relative;
-  margin-bottom: 225px;
-}
-
 .picture {
   width: 192px;
   height: 281px;
   margin-left: 25%;
-  position: absolute; 
 }
 
 .connection {
@@ -178,6 +172,7 @@
   padding-bottom:50px;
   background-color: #fafafa;
   margin: 0 auto;
+  margin-top: -10px;
 }
 
 .connection-title {
@@ -274,12 +269,6 @@
   width: 302px;
   height: 248px;
   margin-left: 5%;
-  position: absolute;
-}
-
-.players-block {
-  position: relative;
-  margin-bottom: 225px;
 }
 
 .collaboration-title-second {
@@ -466,8 +455,8 @@
   background-color: #5e42b0;
   position: absolute;
   bottom: -2vh;
-  left: 2vh;
   z-index: 2;
+  left: 2vh;
 }
 
 .download-title {
@@ -527,6 +516,7 @@
   padding-bottom:50px;
   background-color: #fafafa;
   margin: 0 auto;
+  margin-top: -10px;
 }
 
 .footer-class {
@@ -686,6 +676,7 @@
   .players-block {
     height: 85px;
     margin-bottom: 0px;
+    position: relative;
   }
 
   .connection-players {
@@ -759,6 +750,7 @@
     height: 63px;
     line-height: 60px;
     margin-bottom: 0px;
+    position:relative;
   }
 
   .slogan {
@@ -950,6 +942,7 @@
   .atlets-block {
     height: 60px;
     margin-bottom: 50px;
+    position: relative;
   }
 
   .connection-name {
@@ -1125,13 +1118,15 @@
     top: 35%;  
     width: 10vh;
     bottom: 2vh;
-    left: 5vh;
+    right: -5vh;
     display: flex;
+    left: auto;
   }
 
   .third-class {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
   }
   
   .title-new {
@@ -1167,17 +1162,15 @@
   .picture {
     width: 566px;
     height: 908px;
-    left: -400;
-    margin-left: 35%;
-    top: -30;
+    margin-left: 3%;
+    margin-top: -5%;
   }
 
   .picture-second {
     width: 60%;
     height: 810px;
-    right: 100;
-    top: -100;
-    margin-top: 0px;
+    margin-left: 40%;
+    margin-top: -7%;
   }
 
   .square-numbers::after {
