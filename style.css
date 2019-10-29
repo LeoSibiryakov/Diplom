@@ -108,6 +108,12 @@
   margin-top: 14px;
 }
 
+.main-links {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .apple-icon {
   width: 20px;
   height: 24px;
@@ -184,13 +190,10 @@
 .numbers {
   font-family: 'OpenSans Bold';
   font-size: 14px;
-  width: 17px;
-  height: 16px;
 }
 
 .numbers::after {
   content: "";
-  width: 15px;
   height: 4px;
   background-color: #5e42b0;
   display: block;
@@ -266,7 +269,6 @@
 }
 
 .picture-second {
-  width: 302px;
   height: 248px;
   margin-left: 5%;
 }
@@ -450,8 +452,8 @@
 }
 
 .numbers-title {
-  width: 70px;
-  height: 70px;
+  width: 17%;
+  height: 17%;
   background-color: #5e42b0;
   position: absolute;
   bottom: -2vh;
@@ -469,23 +471,24 @@
   display: flex;
   flex-direction: column;
   font-family: 'OpenSans Bold';
-  font-size: 14px;
-  width: 17px;
-  height: 16px;
+  font-size: 15px;
+  width: 17%;
+  height: 17%;
   color: #f5f6f7;
-  margin: 0 auto;
-  margin-top: 15px;
+  margin: auto;
+  margin-top: 30%;
+
 }
 
 .square-numbers::after {
-  content:"";
-  width: 15px;
-  height: 4px;
+  content:"";;
+  height: 5%;
+  width: 25%;
   background-color: #8f7bc8;
   display: block;
-  margin-top: 23px;
   z-index: 2;
   position: absolute;
+  bottom: 25%;
 }
 
 .photo {
@@ -516,7 +519,6 @@
   padding-bottom:50px;
   background-color: #fafafa;
   margin: 0 auto;
-  margin-top: -10px;
 }
 
 .footer-class {
@@ -525,8 +527,8 @@
 }
 
 .numbers-title-second {
-  width: 70px;
-  height: 70px;
+  width: 17%;
+  height: 17%;
   background-color: #5e42b0;
   position: absolute;
   left: 2vh;
@@ -557,12 +559,18 @@
 
   .links {
     border-radius: 50px;
-    padding-right: 38px;
-    padding-left: 38px;
     padding-top: 15px;
-    margin-top: 10px;
     margin-top: 0px;
     margin-left: 0px;
+  }
+
+  .main-links {
+    width: 45%;
+  }
+
+  .main-links:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 0px;
   }
 
   .title {
@@ -579,6 +587,7 @@
     width: 36px;
     height: 42px;
     margin-bottom: 16px;
+    margin-left:2em;
   } 
 
   .app {
@@ -590,6 +599,7 @@
     width: 41px;
     height: 45px;
     margin-bottom: 14px;
+    margin-left: 2em;
   }
 
   .google {
@@ -671,18 +681,15 @@
   .connection-players {
     padding-right: 292px;
     width: initial;
+    padding-left: 30px;
+    background-color: #ffffff;
+    padding-bottom: 32px;
   }
 
   .players-block {
     height: 85px;
     margin-bottom: 0px;
     position: relative;
-  }
-
-  .connection-players {
-    padding-left: 30px;
-    background-color: #ffffff;
-    padding-bottom: 32px;
   }
 
   .collaboration-players {
@@ -732,14 +739,10 @@
     flex-direction: row;
   }
 
-  .main-links:nth-child(2) {
-     margin-top: 0px;
-     margin-left: 30px;
-  }
-
   .downloads {
     width: 138px;
     margin-left: 27px;
+    margin-right: 27px;
   }
 
   .atlets {
@@ -823,8 +826,8 @@
   }
 
   .numbers-title-second {
-    width: 115px;
-    height: 115px;
+    width: 117px;
+    height: 117px;
   }
 
   .beactive {
@@ -868,11 +871,20 @@
 
   .links {
     border-radius: 50px;
-    padding-right: 60px;
-    padding-left: 60px;
     padding-top: 10px;
     padding-bottom: 17px;
-    margin-left: 30px;
+  }
+
+  .main-links {
+    width: 35%;
+  }
+
+  .downloads {
+    width: auto;
+  }
+
+  .main-links:nth-child(2) {
+    margin: auto;
   }
 
   .apple {
@@ -883,6 +895,7 @@
   .apple-icon {
     width: 42px;
     height: 48px;
+    margin-left: 0px;
   } 
 
   .app {
@@ -893,6 +906,7 @@
   .google-icon {
     width: 40px;
     height: 50px;
+    margin-left: 30px;
   }
 
   .google {
@@ -991,7 +1005,7 @@
   }
 
   .players-block {
-    height: 58px;
+    height: 60px;
     margin-bottom: 0px;
   }
 
@@ -1155,10 +1169,6 @@
     margin-top: 0px;
   }
 
-  .downloads {
-    width: 145px;
-  }
-
   .picture {
     width: 566px;
     height: 908px;
@@ -1167,7 +1177,6 @@
   }
 
   .picture-second {
-    width: 60%;
     height: 810px;
     margin-left: 40%;
     margin-top: -7%;
@@ -1179,8 +1188,6 @@
 
   .square-numbers {
     font-size: 16px;                      
-    transform: translate(0, -50%);
-    margin-top: 40%;
   }
 
   .title-new {
@@ -1227,10 +1234,6 @@
     font-size: 60px;
   }
 
-  .main-links:nth-child(2) {
-    margin-left: 30px;
-  }
-
   .beactive {
      padding-bottom: 10%;
   }
@@ -1258,6 +1261,7 @@
 
   .article {
     display: flex;
+    width: 100%;
   }
 
   .beactive {
